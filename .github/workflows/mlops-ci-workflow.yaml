@@ -48,5 +48,3 @@ jobs:
           docker stop mlflow-tracking-server
           docker rm mlflow-tracking-server
           docker rmi ghcr.io/mlflow/mlflow:latest
-
-      - name: Setup

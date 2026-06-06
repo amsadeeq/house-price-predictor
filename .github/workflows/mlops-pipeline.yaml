@@ -155,7 +155,7 @@ jobs:
         with:
           registry: docker.io
           username: ${{vars.DOCKER_USERNAME}}
-          password: ${{secrets.DOCKERHUB_PASSWORD}}
+          password: ${{secrets.DOCKER_PASSWORD}}
 
       - name: Push Docker image to DockerHub
         run: |
